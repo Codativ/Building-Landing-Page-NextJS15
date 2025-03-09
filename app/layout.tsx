@@ -1,0 +1,23 @@
+// app/layout.tsx
+import './globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'Modern Landing Page',
+  description: 'Next.js ve TypeScript ile oluşturulmuş modern bir landing page',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="tr" className="scroll-smooth">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
