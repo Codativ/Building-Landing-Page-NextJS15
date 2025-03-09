@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/60bc5d8b-23d7-4ffc-8c41-2237f9d26c93)
 ## 🏗️ İnşaat Şirketi Web Sitesi / Construction Company Website  
 
 Bu proje, Next.js 15 ve Tailwind CSS kullanılarak geliştirilmiş modern bir inşaat şirketi web sitesidir. Proje, hızlı ve ölçeklenebilir bir frontend mimarisi sunar.  
